@@ -1,2 +1,3 @@
-# WA_Harjoitustyo
+# Harjoitustyo
+
 Created with CodeSandbox
