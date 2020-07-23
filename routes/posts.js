@@ -38,7 +38,7 @@ router.post(
     var minute = date.getMinutes();
     var second = date.getSeconds();
     var day = date.getDate();
-    var month = date.getMonth();
+    var month = date.getMonth() + 1;
     var year = date.getFullYear();
     var checked = req.body.checkbox;
 
@@ -62,7 +62,7 @@ router.post(
       second = "0" + sekuntti;
     }
 
-    var time = hour + ":" + minute + ":" + second;
+    var time = hour + ":" + minute;
     var date1 = day + "." + month + "." + year;
 
     if (checked === "YES") {
