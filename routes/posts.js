@@ -3,10 +3,6 @@ var express = require("express");
 var router = express.Router();
 var loggeduser;
 
-/*var sessionstorage = require("sessionstorage");
-var posting = require("../models/post");
-var user = require("../models/user");*/
-
 // Good validation documentation available at https://express-validator.github.io/docs/
 const { sanitizeBody } = require("express-validator");
 
