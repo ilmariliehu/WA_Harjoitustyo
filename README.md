@@ -1,5 +1,5 @@
 # Harjoitustyo
 
-url: http://thenewtwitter-finalprojectilmariliehu.rahtiapp.fi/
+url: http://thenewtwitter-finalprojectliehuilmari.rahtiapp.fi/
 
 Created with CodeSandbox
