@@ -71,7 +71,7 @@ router.post(
 
     if (local_content.length <= 120) {
       if (local_content && local_author !== "") {
-        req.app.get("poststore").push({
+        req.app.get("poststore").unshift({
           author: local_author,
           content: local_content,
           time: time,
